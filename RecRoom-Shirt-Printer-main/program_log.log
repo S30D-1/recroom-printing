@@ -1,0 +1,112 @@
+[2023-10-10 17:55:39,475] [C:\Users\Admin\Downloads\RecRoom-Shirt-Printer-main\RecRoom-Shirt-Printer-main\common.py.<module>:34] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\Users\Admin\Downloads\RecRoom-Shirt-Printer-main\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 31, in <module>
+    main()
+  File "C:\Users\Admin\Downloads\RecRoom-Shirt-Printer-main\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 20, in main
+    img, img_data = Encoding.main(list_size=50)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\RecRoom-Shirt-Printer-main\RecRoom-Shirt-Printer-main\Encoding.py", line 291, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\RecRoom-Shirt-Printer-main\RecRoom-Shirt-Printer-main\Encoding.py", line 142, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2023-10-22 06:19:02,065] [C:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:172] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 170, in <module>
+    main(from_file="y" in input("Use the encoded data in `image_data.txt`? [yes/no]\n > "))
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 139, in main
+    image, img_data = Encoding.main(list_size=64)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 291, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 142, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-03-13 20:04:45,523] [C:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:34] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 31, in <module>
+    main()
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 20, in main
+    img, img_data = Encoding.main(list_size=50)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 271, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 122, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-03-22 09:09:37,576] [C:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:34] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 31, in <module>
+    main()
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 20, in main
+    img, img_data = Encoding.main(list_size=50)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 290, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 141, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-04-25 21:18:28,262] [C:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:200] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 198, in <module>
+    main(from_file="y" in input("Use the encoded data in `image_data.txt`? [yes/no]\n > "))
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 167, in main
+    image, img_data = Encoding.main(list_size=64)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 317, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 168, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-04-25 23:06:54,810] [C:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:200] [ERROR] ERROR
+Traceback (most recent call last):
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 198, in <module>
+    main(from_file="y" in input("Use the encoded data in `image_data.txt`? [yes/no]\n > "))
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 167, in main
+    image, img_data = Encoding.main(list_size=64)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 308, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "C:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 159, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-06-30 09:24:17,896] [D:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:200] [ERROR] ERROR
+Traceback (most recent call last):
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 198, in <module>
+    main(from_file="y" in input("Use the encoded data in `image_data.txt`? [yes/no]\n > "))
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\List_Create_Importing.py", line 167, in main
+    image, img_data = Encoding.main(list_size=64)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 317, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 168, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
+[2024-06-30 09:26:31,129] [D:\rec shirt\RecRoom-Shirt-Printer-main\common.py.<module>:34] [ERROR] ERROR
+Traceback (most recent call last):
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 31, in <module>
+    main()
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Shirt-Printer.py", line 20, in main
+    img, img_data = Encoding.main(list_size=50)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 317, in main
+    img: Image = get_image()
+                 ^^^^^^^^^^^
+  File "D:\rec shirt\RecRoom-Shirt-Printer-main\Encoding.py", line 168, in get_image
+    if img.palette:
+       ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'palette'
